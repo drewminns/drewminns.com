@@ -1,0 +1,45 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+    %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}
+    %title= t('meta.title')
+    %meta{:description => t('meta.title')}
+    %meta{:property => "og:title", :content => t('meta.title')}
+    %meta{:property => "og:site_name", :content => t('meta.site_name')}
+    %meta{:property => "og:type", :content => "website"}
+    %meta{:property => "og:url", :content => "drewminns.com"}
+    %meta{:property => "og:description", :content => t('meta.descript')}
+    %meta{:name => "twitter:card", :content => "Drew Minns - Front End Developer"}
+    %meta{:name => "twitter:title", :content => t('meta.title')}
+    %meta{:name => "twitter:description", :content => t('meta.descript')}
+
+    / Main Stylesheet
+    %link{:href => "assets/stylesheets/normalize.css", :rel => "stylesheet", :type => "text/css"}
+    %link{:href => "assets/stylesheets/main.css", :rel => "stylesheet", :type => "text/css"}
+
+    / jQuery CDN and Local Fallback
+    %script{ :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"}
+
+    %script{ :src => "assets/javascripts/application.js" }
+    %script{ :src => "assets/javascripts/vendor/modernizr.custom.js" }
+    
+    %link{:href => "http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|Oswald:400,300", :rel => "stylesheet", :type => "text/css"}
+
+    / Google Analytics
+    = render "partials/_analytics.html.haml"
+
+  %body{ :class => @page_name }
+
+    = render "partials/_header.html.haml"
+    #main
+      = yield
+    = render "partials/_footer.html.haml"
+
+    %script{ :src => "assets/javascripts/grid.js" }
+    :javascript
+      $(function() {
+      Grid.init();
+      });
+

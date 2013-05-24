@@ -1,0 +1,26 @@
+.wide
+  .wrapper#about
+    .bio
+      %h2= t('global.headline')
+      = t('global.about')
+      %h3 Skills
+      %ul.skills
+        %li 
+          %strong Core: 
+          = t('global.core')
+        %li
+          %strong Presentational: 
+          = t('global.presentational')
+        %li
+          %strong Interaction: 
+          = t('global.interaction')
+        %li
+          %strong Development: 
+          = t('global.development')
+        %li
+          %strong Workflow: 
+          = t('global.workflow')
+
+    .shot
+      %img{:src => "assets/images/profile.jpg"}
+      

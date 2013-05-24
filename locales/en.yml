@@ -1,0 +1,25 @@
+en:
+  meta:
+    title: "Drew Minns"
+    site_name: "Drew Minns - Front End Developer"
+    descript: "Drew Minns - Front End Developer"
+  global:
+    logo: "Drew Minns"
+    feature: "Front End Developer, Creative<br> and Rock & Roll Fanatic"
+    
+    
+    core: "Print and Web Design, User Experience Marketing"
+    presentational: "CSS, Sass, Less, Responsive Design"
+    interaction: "Javascript, Coffeescript, jQuery"
+    development: "HTML5, Rails, PHP, Ember"
+    workflow: "Git, Command Line"
+    headline: "Hello, I'm Drew"
+    about: "<p>I'm a Front End Developer and Designer from Toronto, Canada.</p>
+			<p>I've spent many years within the digital industry honing my skills as first a Designer, then making the move to Front End Development. Spending 6 years within the entertainment industry, I recently made the move to agency life to grow my skills and production experience.</p>
+			<p>I graduated in 2005 from Humber College from the Multimedia Design and Production Technician program - I've been working as a both-sides-of-the-brain creative since, working to strategize, create and execute successful projects. Based out of the west end of Toronto, I currently work with Mosaic as a Front End Developer and devote my free time working on an open source project called <a href='cashmusic.org'>Cash Music</a>.</p>"
+    
+    findme: "Contact Me"
+    contact: "You can find me on these fine social networks"
+    copyright: "Copyright 2013 - Drew Minns"
+    madewith: "Made with the help of <a href='http://stasis.me' target='_blank'>Stasis</a>, <a href='http://semantic.gs/' target='_blank'>Semantic.gs</a>, <a href='http://haml.info/' target='_blank'>Haml</a>, <a href='http://sass-lang.com/' target='_blank'>Sass</a> and a couple tiny things borrowed from <a href='http://twitter.github.io/bootstrap/' target='_blank'>Bootstrap</a> shhhh..."
+      
